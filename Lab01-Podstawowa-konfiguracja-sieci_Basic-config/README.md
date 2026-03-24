@@ -1,45 +1,33 @@
-# 🌐 Portfolio Sieciowe Cisco (Laboratoria Packet Tracer)
+# Lab 01: Podstawowa konfiguracja sieci - Powtórzenie
 
 ---
 
-## 🇵🇱 Wersja Polska
+## 🇵🇱 Wersja Polska 
 
-### O projekcie
-Niniejsze repozytorium zawiera dokumentację moich postępów w nauce administracji sieciami komputerowymi. Znajdują się tu scenariusze realizowane w środowisku **Cisco Packet Tracer**, które odwzorowują rzeczywiste konfiguracje urządzeń klasy Enterprise. Repozytorium jest aktualizowane co tydzień o nowe zagadnienia poruszane na zajęciach.
+### Opis projektu
+Celem laboratorium było odtworzenie i skonfigurowanie kompletnej infrastruktury sieciowej łączącej trzy lokalizacje: **BRANCH**, **HQ** oraz **REMOTE**. Projekt stanowił kompleksowe podsumowanie fundamentów pracy z systemem Cisco IOS.
 
-### Technologie i narzędzia
-* **Symulator:** Cisco Packet Tracer 8.x
-* **Sprzęt:** Routery Cisco ISR, Przełączniki Catalyst
-* **Metoda konfiguracji:** Interfejs wiersza poleceń (CLI)
-* **Status:** W trakcie rozwoju (aktualizacje co tydzień)
+### Kluczowe zadania i protokoły
+* **Segmentacja L2:** Konfiguracja VLAN 10, 20 oraz 99 (Management) na przełącznikach.
+* **Inter-VLAN Routing:** Wdrożenie techniki Router-on-a-Stick (subinterfejsy) na routerze BRANCH.
+* **Usługi sieciowe:** Konfiguracja routera jako serwera DHCPv4 dla hostów w różnych podsieciach.
+* **Routing:** Implementacja statycznych tras domyślnych zapewniających pełną łączność między sieciami LAN 1, LAN 2 i LAN 3.
 
-### Katalog Laboratoriów
-* **[Lab 03] OSPFv2 Multi-Area**
-  Konfiguracja routingu dynamicznego w strukturze wieloobszarowej (Backbone + obszary podrzędne). Skupienie na sumaryzacji tras na routerach ABR i optymalizacji tablic routingu.
-* **[Lab 02] OSPFv2 Single-Area**
-  Wdrożenie protokołu OSPF w jednym obszarze. Zadanie obejmowało ustawianie Router ID, pasywowanie interfejsów LAN oraz ręczną manipulację metryką (kosztem) łączy.
-* **[Lab 01] Podstawy Infrastruktury Sieciowej**
-  Kompleksowe powtórzenie: tworzenie VLANów, Inter-VLAN routing (Router-on-a-Stick) oraz konfiguracja routera jako serwera DHCPv4.
+**Topologia:**
+![Screenshot](./topology.png)
 
 ---
 
 ## 🇬🇧 English Version 
 
-### About the Project
-This repository documents my progress in learning network administration. It features various scenarios developed in **Cisco Packet Tracer**, mimicking real-world enterprise network configurations. The repository is updated weekly with new labs from my university courses and personal study.
+### Project Description
+The goal of this lab was to design and configure a complete network infrastructure connecting three sites: **BRANCH**, **HQ**, and **REMOTE**. This project served as a comprehensive review of Cisco IOS fundamentals.
 
-### Tech Stack & Tools
-* **Simulator:** Cisco Packet Tracer 8.x
-* **Hardware:** Cisco ISR Routers, Catalyst Switches
-* **Configuration Method:** Command Line Interface (CLI)
-* **Status:** In Progress (Weekly Updates)
+### Key Tasks & Protocols
+* **L2 Segmentation:** Configuration of VLANs 10, 20, and 99 (Management) on switches.
+* **Inter-VLAN Routing:** Implementation of Router-on-a-Stick (sub-interfaces) on the BRANCH router.
+* **Network Services:** Configuring the router as a DHCPv4 server for hosts across different subnets.
+* **Routing:** Implementation of static default routes ensuring full connectivity between LAN 1, LAN 2, and LAN 3.
 
-### Project Catalog
-* **[Lab 03] OSPFv2 Multi-Area**
-  Dynamic routing configuration in a multi-area structure (Backbone + subordinate areas). Focuses on route summarization at ABRs and routing table optimization.
-* **[Lab 02] OSPFv2 Single-Area**
-  Implementation of OSPFv2 within a single area. Tasks included setting Router IDs, configuring passive interfaces for LANs, and manual metric (cost) manipulation.
-* **[Lab 01] Network Infrastructure Foundations**
-  A comprehensive review covering VLAN creation, Inter-VLAN routing (Router-on-a-Stick), and configuring a router as a DHCPv4 server.
-
----
+**Topology:**
+![Screenshot](./topology.png)
