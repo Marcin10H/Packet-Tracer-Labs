@@ -17,7 +17,7 @@ Zaawansowany projekt sieciowy wprowadzający strukturę wieloobszarową OSPFv2. 
 
 ---
 
-## 🇬🇧 English Version 
+## 🇪🇳 English Version 
 
 ### Project Description
 An advanced networking project introducing a multi-area OSPFv2 structure. The network was divided into a **Backbone Area (Area 0)** and subordinate areas (Area 1, 2, 51, 52) to improve scalability and performance.

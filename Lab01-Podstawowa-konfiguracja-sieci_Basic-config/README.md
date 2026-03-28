@@ -18,7 +18,7 @@ Celem laboratorium było odtworzenie i skonfigurowanie kompletnej infrastruktury
 
 ---
 
-## 🇬🇧 English Version 
+## 🇪🇳 English Version 
 
 ### Project Description
 The goal of this lab was to design and configure a complete network infrastructure connecting three sites: **BRANCH**, **HQ**, and **REMOTE**. This project served as a comprehensive review of Cisco IOS fundamentals.

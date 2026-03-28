@@ -23,7 +23,7 @@ Niniejsze repozytorium zawiera dokumentację moich postępów w nauce administra
 
 ---
 
-## 🇬🇧 English Version 
+## 🇪🇳 English Version 
 
 ### About the Project
 This repository documents my progress in learning network administration. It features various scenarios developed in **Cisco Packet Tracer**, mimicking real-world enterprise network configurations. The repository is updated weekly with new labs from my university courses and personal study.

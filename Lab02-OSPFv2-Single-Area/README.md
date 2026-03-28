@@ -18,7 +18,7 @@ Laboratorium skupiało się na wdrożeniu protokołu stanu łącza **OSPFv2** w 
 
 ---
 
-## 🇬🇧 English Version 
+## 🇪🇳 English Version 
 
 ### Project Description
 This lab focused on implementing the **OSPFv2** link-state protocol within a single backbone area (**Area 0**). The primary objective was to understand the Dijkstra algorithm and path selection mechanisms.
