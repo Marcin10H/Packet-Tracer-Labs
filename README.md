@@ -14,6 +14,8 @@ Niniejsze repozytorium zawiera dokumentację moich postępów w nauce administra
 * **Status:** W trakcie rozwoju (aktualizacje co tydzień)
 
 ### Katalog Laboratoriów
+* **[Lab 04] Kontrola Dostępu (Standard ACLs)**
+  Wdrażanie standardowych list kontroli dostępu w celu zabezpieczenia dostępu zdalnego (Telnet), izolacji VLAN-ów oraz blokowania ruchu między oddziałami przy użyciu zoptymalizowanych masek wieloznacznych (wildcard masks).
 * **[Lab 03] OSPFv2 Multi-Area**
   Konfiguracja routingu dynamicznego w strukturze wieloobszarowej (Backbone + obszary podrzędne). Skupienie na sumaryzacji tras na routerach ABR i optymalizacji tablic routingu.
 * **[Lab 02] OSPFv2 Single-Area**
@@ -35,10 +37,11 @@ This repository documents my progress in learning network administration. It fea
 * **Status:** In Progress (Weekly Updates)
 
 ### Project Catalog
+* **[Lab 04] Access Control (Standard ACLs)**
+  Implementing standard access control lists to secure remote management (Telnet), isolate VLANs, and block branch-to-branch traffic using optimized wildcard masks.
 * **[Lab 03] OSPFv2 Multi-Area**
   Dynamic routing configuration in a multi-area structure (Backbone + subordinate areas). Focuses on route summarization at ABRs and routing table optimization.
 * **[Lab 02] OSPFv2 Single-Area**
   Implementation of OSPFv2 within a single area. Tasks included setting Router IDs, configuring passive interfaces for LANs, and manual metric (cost) manipulation.
 * **[Lab 01] Network Infrastructure Foundations**
   A comprehensive review covering VLAN creation, Inter-VLAN routing (Router-on-a-Stick), and configuring a router as a DHCPv4 server.
-
