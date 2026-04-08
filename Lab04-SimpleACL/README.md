@@ -27,5 +27,5 @@ A network security project focused on implementing basic security policies using
 * **VLAN and Branch Isolation:** Blocking horizontal traffic between subnets (e.g., preventing communication between VLAN 11 and VLAN 22) and denying direct branch-to-branch communication (LOCAL to REMOTE).
 * **Optimization and Scaling:** Utilizing wildcard masks (e.g., `0.0.255.255`) to replace multiple specific rules with a single, universal ACL that blocks entire address spaces.
 
-**Topologia:**
+**Topology:**
 ![Screenshot](./topology.png)
