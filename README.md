@@ -14,6 +14,8 @@ Niniejsze repozytorium zawiera dokumentację moich postępów w nauce administra
 * **Status:** W trakcie rozwoju (aktualizacje co tydzień)
 
 ### Katalog Laboratoriów
+* **[Lab 09-10] Trójwarstwowa Sieć Korporacyjna (HSRP, OSPFv2, DHCP & Extended ACLs)**
+  Projekt kompletnej, odpornej na awarie infrastruktury w architekturze hierarchicznej (Access-Distribution-Core). Wdrożenie redundancji bramy HSRP z podziałem obciążenia na budynki, agregacji EtherChannel, centralnego serwera DHCP z przekazywaniem żądań (IP Helper) oraz restrykcyjnych, rozszerzonych list ACL w celu pełnej izolacji ruchu między podsieciami użytkowników.
 * **[Lab 04] Kontrola Dostępu (Standard ACLs)**
   Wdrażanie standardowych list kontroli dostępu w celu zabezpieczenia dostępu zdalnego (Telnet), izolacji VLAN-ów oraz blokowania ruchu między oddziałami przy użyciu zoptymalizowanych masek wieloznacznych (wildcard masks).
 * **[Lab 03] OSPFv2 Multi-Area**
@@ -37,6 +39,8 @@ This repository documents my progress in learning network administration. It fea
 * **Status:** In Progress (Weekly Updates)
 
 ### Project Catalog
+* **[Lab 09-10] Three-Tier Enterprise Network (HSRP, OSPFv2, DHCP & Extended ACLs)**
+  Design of a comprehensive, fault-tolerant network framework based on a hierarchical layout (Access-Distribution-Core). Features HSRP gateway redundancy with per-building load balancing, EtherChannel bundling, centralized DHCP with IP Helper relaying, and advanced Extended ACL execution to enforce user segment isolation.
 * **[Lab 04] Access Control (Standard ACLs)**
   Implementing standard access control lists to secure remote management (Telnet), isolate VLANs, and block branch-to-branch traffic using optimized wildcard masks.
 * **[Lab 03] OSPFv2 Multi-Area**
