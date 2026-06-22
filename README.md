@@ -18,6 +18,8 @@ Niniejsze repozytorium stanowi moje profesjonalne portfolio z zakresu inżynieri
   Projekt integracji odległych oddziałów przez publiczną sieć Internet za pomocą tuneli GRE (Generic Routing Encapsulation). Konfiguracja wirtualnych interfejsów tunelowych, hermetyzacja ruchu OSPF wewnątrz sieci VPN oraz równoległa implementacja NAT Overload dla dostępu do Internetu.
 * **[Lab 12] Technologie WAN (PPP, Frame Relay)**
   Zarządzanie połączeniami szeregowymi w sieciach rozległych. Konwersja enkapsulacji do PPP wraz z bezpiecznym uwierzytelnianiem węzłów algorytmami CHAP. Projektowanie sieci NBMA przy użyciu technologii Frame Relay, w tym mapowanie adresów IP na kanały DLCI (wirtualne obwody PVC) oraz integracja środowiska wielodostępowego z routingiem OSPFv2.
+* **[Lab 11] Translacja Adresów Sieciowych (NAT) i Redundancja Bramy (HSRP)**
+  Zaawansowany scenariusz (rozwinięcie Lab 08) integrujący redundantną architekturę LAN (wielowarstwowe przełączniki, Rapid PVST+, HSRP Load Balancing) z usługami dostępu do Internetu. Zaimplementowano translację NAT Overload (PAT) na portach WAN, statyczne przekierowanie portów (Port Forwarding) do udostępnienia serwera WWW na świat oraz dedykowane listy ACL wykluczające specyficzny ruch z translacji.
 * **[Lab 09-10] Trójwarstwowa Sieć Korporacyjna (HSRP, OSPFv2, DHCP & Extended ACLs)**
   Projekt kompletnej, odpornej na awarie infrastruktury w architekturze hierarchicznej (Access-Distribution-Core). Wdrożenie redundancji bramy HSRP z podziałem obciążenia na budynki, agregacji EtherChannel, centralnego serwera DHCP z przekazywaniem żądań (IP Helper) oraz restrykcyjnych, rozszerzonych list ACL w celu pełnej izolacji ruchu między podsieciami użytkowników.
 * **[Lab 04] Kontrola Dostępu (Standard ACLs)**
@@ -47,6 +49,8 @@ This repository serves as my professional Teleinformatics engineering portfolio,
   Integration of remote branches across the public Internet using Generic Routing Encapsulation (GRE) tunnels. Configuration of virtual tunnel interfaces, encapsulation of OSPF traffic within the VPN, and parallel implementation of NAT Overload for Internet access.
 * **[Lab 12] WAN Technologies (PPP, Frame Relay)**
   Managing serial connections in Wide Area Networks. Conversion of encapsulation to PPP along with secure node authentication using CHAP. Designing an NBMA network using Frame Relay technology, including mapping IP addresses to DLCI channels (PVC virtual circuits) and integrating the multi-access environment with OSPFv2 routing.
+* **[Lab 11] Network Address Translation (NAT) & Default Gateway Redundancy (HSRP)**
+  An advanced scenario (expanding on Lab 08) integrating a redundant LAN architecture (multilayer switches, Rapid PVST+, HSRP Load Balancing) with Internet access services. Features NAT Overload (PAT) on WAN ports, static Port Forwarding to expose a local Web server to the outside world, and dedicated ACLs to exclude specific traffic from translation.
 * **[Lab 09-10] Three-Tier Enterprise Network (HSRP, OSPFv2, DHCP & Extended ACLs)**
   Design of a comprehensive, fault-tolerant network framework based on a hierarchical layout (Access-Distribution-Core). Features HSRP gateway redundancy with per-building load balancing, EtherChannel bundling, centralized DHCP with IP Helper relaying, and advanced Extended ACL execution to enforce user segment isolation.
 * **[Lab 04] Access Control (Standard ACLs)**
