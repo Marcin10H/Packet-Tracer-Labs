@@ -31,5 +31,5 @@ An advanced project integrating Network Address Translation (NAT) mechanisms wit
 * **High Availability (HSRP):** Implementing the Hot Standby Router Protocol on edge routers, including assigning different priorities for specific VLANs to manually achieve Load Balancing.
 * **Layer 2 Optimization (Rapid PVST+):** Configuring the Spanning Tree Protocol, including manual election of Root Bridges (Primary/Secondary) for specific VLANs, keeping it consistent with the HSRP routing policy.
 
-**Topologia:**
+**Topology:**
 ![Screenshot](./topology.png)
