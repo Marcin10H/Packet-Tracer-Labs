@@ -31,5 +31,5 @@ A project simulating a secure connection between two remote corporate branches (
 * **Path Analysis (Tracert & PDU):** Practical verification and packet tracing. Confirming that inter-branch traffic passes only through private IP nodes and that the packet structure reflects proper IP-GRE-IP encapsulation.
 * **VLANs & External Routing:** Implementation of Virtual LANs (VLANs) and Trunk links using multilayer switches.
 
-**Topologia:**
+**Topology:**
 ![Screenshot](./topology.png)
